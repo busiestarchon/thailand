@@ -1,0 +1,622 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* overflow-x: hidden; */
+    scroll-behavior: smooth;
+}
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+.nav{
+    width: 50%;
+    position: absolute;
+    right: -81px;
+    
+}
+.nav ul {
+    display: flex;
+    flex-direction: row;
+}
+.nav ul li{
+    margin: 15px 20px;
+    list-style: none;
+}
+.nav a{
+    font-size: 16px;
+letter-spacing: 0px;
+text-transform: uppercase;
+color: #373636;
+font-weight: 700;
+font-family: "Lato";
+text-decoration: none;
+}
+.top{
+    position: relative;
+    width: 100%;
+}
+.firstimg{
+    position: absolute;
+    top: -536px;
+    left: 315px;
+    width: 100%;
+    scale:1.9;
+}
+.smimg{
+    position: absolute;
+    top: 14px;
+    left: 203px;
+}
+
+.background{
+    background-image: url(file:///C:/Users/HP/OneDrive/Desktop/FEE%20ST1/images/Rectangle%203%20copy2.png);
+    width: 100%;
+    height: 1500px;
+    margin-top: 620px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.l1{
+    position: absolute;
+    top: -377px;
+    left: 34px;
+}
+.l2{
+    position: absolute;
+    top: -519px;
+    left: 151px;
+}
+.vrbest{
+    position: absolute;
+    top: 506px;
+    left: 335px;
+}
+.vrbest h1{
+    font-size: 33px;
+text-transform: uppercase;
+color: #019edb;
+font-weight: 900;
+font-family: "Lato";
+}
+.vrbest p{
+    width: 250px;
+height: 169px;
+font-size: 15px;
+line-height: 23px;
+color: #ffffff;
+font-weight: 400;
+font-family: "Lato";
+padding: 20px 0;
+}
+.vrbest button{
+    width: 125px;
+height: 35px;
+border-radius: 17px;
+background-color: #019edb;
+
+font-size: 15px;
+letter-spacing: 0px;
+text-transform: uppercase;
+color: #ffffff;
+font-weight: 700;
+font-family: "Lato";
+text-align: center;
+}
+.vrbest2{
+    position: absolute;
+    top: 850px;
+    left: 513px;
+}
+.vrbest2 p{
+    width: 250px;
+height: 169px;
+font-size: 15px;
+color: #ffffff;
+font-weight: 400;
+font-family: "Lato";
+}
+.vrbest2 h2{
+    font-size: 24px;
+letter-spacing: 1px;
+text-transform: uppercase;
+color: #ffffff;
+font-weight: 700;
+font-family: "Lato";
+padding: 16px 0;
+}
+.vrbest2 h1{
+    /* text-align: center; */
+    margin-left: 55px;
+    font-size: 90px;
+letter-spacing: 2px;
+text-transform: uppercase;
+color: #fefefe;
+font-weight: bolder;
+font-family: "Lato";
+}
+.background h1{
+    font-size: 37px;
+letter-spacing: 1px;
+text-transform: uppercase;
+color: #ffffff;
+font-weight: 900;
+font-family: "Lato";
+text-align: center;
+}
+.background h2{
+    font-size: 24px;
+letter-spacing: 1px;
+text-transform: uppercase;
+color: #ffffff;
+font-weight: 700;
+font-family: "Lato";
+text-align: center;
+margin: 20px 0;
+}
+.content{
+    padding-top: 850px;
+}
+.ycu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+.ycubox{
+    /* opacity: 0.502; */
+width: 321px;
+height: 202px;
+background-color: #45454586;
+padding: 30px;
+}
+.ycubox p{
+    margin-top: 20px;
+    width:280px;
+/* height: 169px; */
+font-size: 14px;
+line-height: 20px;
+color: #ffffff;
+font-weight: 400;
+font-family: "Lato";
+}
+.ycubox h2{
+    font-size: 26px;
+text-transform: uppercase;
+color: #ffffff;
+font-weight: bold;
+font-family: "Harabara Mais Bold";
+/* text-align: center; */
+}
+.btn{
+    width: 125px;
+height: 35px;
+border-radius: 17px;
+background-color: #019edb;
+
+font-size: 15px;
+letter-spacing: 0px;
+text-transform: uppercase;
+color: #ffffff;
+font-weight: 700;
+font-family: "Lato";
+text-align: center;
+/* margin: 40px auto; */
+}
+.buttonbox{
+    width: 100%;
+    margin: 50px 46%;
+    
+}
+.creative{
+    font-size: 40px;
+line-height: 23px;
+color: #ffffff;
+font-family: "Bebas";
+position: absolute;
+top: 25px;
+left: 253px;
+}
+.tagline{
+    font-size: 18px;
+letter-spacing: 3px;
+line-height: 17px;
+color: #ffffff;
+font-family: "Baron Neue";
+position: absolute;
+top: 58px;
+left: 256px;
+}
+.page2{
+    position: relative;
+    width: 100%;
+    height: 1080px;
+    background-image: url("file:///C:/Users/HP/OneDrive/Desktop/FEE%20ST1/images/Rectangle%203%20copy2.png");
+    margin-top: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.secondgirl img{
+    position: absolute;
+    width: 100%;
+    height:auto;
+    top: -501px;
+    left: -5px;
+    right: 0px;
+    
+}
+.secondgirl2{
+    position: absolute;
+    width: 200px;
+    /* height:auto; */
+    top: 29px;
+    left: 345px;
+    right: 0px;
+    scale: 1.1;
+}
+.two{
+    position: absolute;
+    top: 107px;
+    left: 163px;
+    font-size: 100px;
+letter-spacing: 2px;
+text-transform: uppercase;
+color: #019edb;
+font-weight: 900;
+font-family: "Lato";
+}
+.port{
+    position: absolute;
+    top: 263px;
+    left: 292px;
+    font-size: 42px;
+letter-spacing: 1px;
+text-transform: uppercase;
+color: #019edb;
+font-weight: 900;
+font-family: "Lato";
+text-align: center;
+}
+.secondgirl2 p{
+    position: absolute;
+    top: 346px;
+    left: 212px;
+    width: 390px;
+height: 169px;
+font-size: 18px;
+line-height: 20px;
+color: #1b1b1b;
+font-weight: 400;
+font-family: "Lato";
+text-align: center;
+}
+.btn2{
+    width: 125px;
+    height: 35px;
+    border-radius: 17px;
+    background-color: #019edb;
+    
+    font-size: 15px;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Lato";
+    text-align: center;
+    position: absolute;
+    top: 517px;
+    left: 354px;
+}
+.twolast{
+    width: 100%;
+height: 179px;
+font-size: 25px;
+letter-spacing: 0px;
+line-height: 24px;
+text-transform: uppercase;
+color: #ffffff;
+font-weight: 800;
+font-family: "Lato";
+text-align: center;
+position: absolute;
+/* top: 0px; */
+left: 0px;
+bottom: 55px;
+
+}
+.last3{
+    width: 100%;
+height: 179px;
+font-size: 13px;
+letter-spacing: 0px;
+line-height: 24px;
+text-transform: uppercase;
+color: #ffffff;
+font-weight: 800;
+font-family: "Lato";
+text-align: center;
+bottom: 20px;
+position: absolute;
+left: 0px;
+padding: 30px 270px;
+}
+.page3{
+    background-image: url("file:///C:/Users/HP/OneDrive/Desktop/FEE%20ST1/images/Rectangle%203%20copy%203.png");
+    background-position: center;
+    position: relative;
+    height: 600px;
+    width: 100%;
+}
+.pg3img{
+    position: absolute;
+    top: 61px;
+    left: 676px;
+    right: 0;;
+}
+.page3 h1{
+    font-size: 73px;
+letter-spacing: 2px;
+text-transform: uppercase;
+color: #019edb;
+font-weight: 900;
+font-family: "Lato";
+top: 100px;
+left: 741px;
+position: absolute;
+}
+.page3 .hiw{
+    top: 195px;
+left: 623px;
+position: absolute;
+font-size: 31px;
+text-transform: uppercase;
+color: #ffffff;
+font-weight: 700;
+font-family: "Lato";
+text-align: center;
+}
+.page3 h2{
+    font-size: 21px;
+letter-spacing: 1px;
+text-transform: uppercase;
+color: #ffffff;
+font-weight: 700;
+font-family: "Lato";
+text-align: center;
+top: 250px;
+left: 638px;
+position: absolute;
+}
+.page3box{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.box{
+    width: 350px;
+height: 138px;
+}
+.box{
+    margin-top: 350px;
+}
+.b1 img{
+    width: 100%;
+    height: 100%;
+}
+.line3{
+    margin-top: 360px;
+}
+.page4{
+    background-image: url("file:///C:/Users/HP/OneDrive/Desktop/FEE%20ST1/images/two%20girls.png");
+    background-position: center;
+    position: relative;
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+}
+.pg4box{
+    display: flex;
+    width: 100%;
+    justify-content:center;
+    align-items: center;
+    padding-top: 350px;
+    gap: 50px;
+}
+.pg4img{
+    left: 696px;
+}
+.page4 .four{
+    font-size: 73px;
+letter-spacing: 2px;
+text-transform: uppercase;
+color: #019edb;
+font-weight: 900;
+font-family: "Lato";
+top: 100px;
+left: 755px;
+position: absolute;
+}
+.page4 .tstm{
+    top: 195px;
+left: 673px;
+position: absolute;
+font-size: 31px;
+text-transform: uppercase;
+color: #ffffff;
+font-weight: 700;
+font-family: "Lato";
+text-align: center;
+}
+.page4 h2{
+    font-size: 20px;
+letter-spacing: 1px;
+text-transform: uppercase;
+color: #ffffff;
+font-weight: 700;
+font-family: "Lato";
+text-align: center;
+top: 250px;
+left: 678px;
+position: absolute;
+}
+.leftbox p{
+    width: 290px;
+height: 149px;
+font-size: 14px;
+line-height: 20px;
+color: #ffffff;
+font-weight: 400;
+font-family: "Lato";
+text-align: right;
+}
+.leftbox button{
+    width: 125px;
+    height: 35px;
+    border-radius: 17px;
+    background-color: #019edb;
+    
+    font-size: 15px;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Lato";
+    text-align: center;
+    /* position: absolute;
+    top: 517px;
+    left: 354px; */
+}
+.ben10{
+    float: right;
+}
+.pg4box:nth-child(1){
+    text-align: end;
+}
+.pg4box:nth-child(2){
+    text-align: left;
+}
+.page5{
+    width: 100%;
+    height: 150px;
+    background-color: #019edb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.page5box{
+    width: 60px;
+    height: 60px;
+    border-radius: 33px;
+    border: 3px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page5box i{
+    color: #fefefe;
+}
+.page6{
+    width: 100%;
+    position: relative;
+    height: 530px;
+    background-image: url(file:///C:/Users/HP/OneDrive/Desktop/FEE%20ST1/images/Rectangle%203%20copy2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.page6 .four{
+    font-size: 73px;
+letter-spacing: 2px;
+text-transform: uppercase;
+color: #019edb;
+font-weight: 900;
+font-family: "Lato";
+top: 100px;
+left: 755px;
+position: absolute;
+}
+.page6 .tstm{
+    top: 195px;
+left: 673px;
+position: absolute;
+font-size: 31px;
+text-transform: uppercase;
+color: #ffffff;
+font-weight: 600;
+font-family: "Lato";
+text-align: center;
+}
+.footerbox h2{
+    font-size: 17px;
+letter-spacing: 0px;
+line-height: 24px;
+text-transform: uppercase;
+color: #ffffff;
+font-weight: 700;
+font-family: "Lato";
+}
+.footerbox p{
+    font-size: 16px;
+letter-spacing: 0px;
+line-height: 24px;
+color: #ffffff;
+font-weight: 400;
+font-family: "Lato";
+}
+.footerbox{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: end;
+}
+.footbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cpyr{
+    font-size: 17px;
+letter-spacing: 0px;
+line-height: 24px;
+color: #ffffff;
+font-weight: 400;
+font-family: "Lato";
+text-align: center;
+}
+.lastimg{
+    height: 130px;
+    width: 138px;
+    bottom: -160px;
+    left: 46%;
+    /* margin: 0 auto; */
+    position: absolute;
+}
+.lastt{
+    width: 100%;
+    /* padding: 0px auto; */
+    position: relative;
+    padding-top: 10px;
+}
+.lastt a{
+    font-size: 19px;
+letter-spacing: 0px;
+line-height: 24px;
+text-transform: uppercase;
+color: #ffffff;
+font-weight: 400;
+font-family: "Lato";
+text-align: center;
+position: absolute;
+text-decoration: none;
+bottom: -82px;
+    left: -6px;
+    /* z-index: 5; */
+    margin: 0 50%;
+    
+}
+
